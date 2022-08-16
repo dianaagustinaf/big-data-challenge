@@ -19,18 +19,22 @@ From Amazon [reviews dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/in
 * Video Games DB: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz
   Which has 1.785.997 rows.
 
+![Bucket](/AWS-Screenshots/aws-bucket.JPG)
+
 The two ETL processes were performed separately: in the [big_data_model](/big_data_model.ipynb) is the ETL for the Camera DB, and in [big_data_model_2](/big_data_model_2.ipynb) is the ETL for the Video Game DB.
+
+![DB](/AWS-Screenshots/aws-db1.JPG)
 
 ## Transform 
 
 I have transformed the dataset to fit the tables in my RDS database. You can check the [schema file here](/schema.sql). 
 
-
 ## Load
 
 I have loaded the DataFrames that correspond to tables into an RDS instance.
 
-
+![Postgres](/AWS-Screenshots/postgres-cameras-query.JPG)
+![Postgres](/AWS-Screenshots/postgres-vgames-query.JPG)
 
 - - -
 
