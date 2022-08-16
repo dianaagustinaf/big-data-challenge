@@ -14,9 +14,11 @@ The goal for this assignment was to perform the ETL process completely in the cl
 From Amazon [reviews dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt) I chose:
 
 * Cameras DB: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Camera_v1_00.tsv.gz
+  
   Which has 1.801.974 rows.
 
 * Video Games DB: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz
+  
   Which has 1.785.997 rows.
 
 ![Bucket](/AWS-Screenshots/aws-bucket.JPG)
